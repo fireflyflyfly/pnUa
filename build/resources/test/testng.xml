@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" parallel="classes" thread-count="2">
+    <test name="Some interest test" >
+        <!--<groups>-->
+            <!--<run>-->
+                <!--&lt;!&ndash;<exclude name="find"/>&ndash;&gt;-->
+                <!--<include name="element present"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <classes>
+            <class name="BasePnUa">
+                <!--<methods>-->
+                    <!--<include name="checkParameters"/>-->
+                <!--</methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
